@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/nice-select.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="libs/fancybox/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="libs/fancybox/dist/jquery.fancybox.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/fix.css">
     <title>Document</title>
@@ -36,10 +37,10 @@
 			</div>
             <div class="menu-item fancybox-position col-lg-3 col-md-4"><a href="#popup" class="fancybox button">Связаться с Нами</a></div>
         </div>
-        <div class="head-content text-center" id="vacancion">
+        <div class="head-content text-center" >
             <img src="images/dest/main-logo.png" alt="">
             <p class="head-title">Global Invest</p>
-            <p class="text-1 font-weight-light">Лучшее место для развития себя!</p>
+            <p class="text-1">Лучшее место для развития себя!</p>
             <button><img src="images/dest/Vector.png" alt=""> Начать работать!</button>
             <p class="text-2 mt-2 font-weight-bold">Вступай в команду передовых специолистов!</p>
         </div>
@@ -47,42 +48,46 @@
             <div class="form-content col-12 text-center">
                 <p class="title-form">Выберите город и желаему вакансию!</p>
                 <form class="form-row d-flex align-items-center justify-content-space-between">
-                    <div class="col-lg-4 col-sm-6 mb-4">                      
+                    <div class="col-lg-4 col-sm-6">                      
                         <select class="wide">
                             <option data-display="Город">Город</option>
-                            <option value="New-York">Нью-Йорк</option>
+                            <option value="New-York">Днепр</option>
                             <option value="New-York">Нью-Йорк</option>
                         </select>    
                     </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="col-lg-4 col-sm-6">
                         <select class="wide">
                             <option data-display="Вакансия">Вакансия</option>
-                            <option value="1">Ит</option>
-                            <option value="2">Строитель</option>
+                            <option value="1">Smm менеджер</option>
+                            <option value="2">Таргетолог</option>
+                            <option value="2">Менеджер по продажам (английский)</option>
+                            <option value="2">Менеджер по продажам (польский)</option>
+                            <option value="2">Переводчик (английский)</option>
+                            <option value="2">Переводчик (польский)</option>
                         </select> 
                     </div>
-                    <div class="col-lg-4 col-12 mt-md-0 mt-3">
+                    <div id="vacancion" class="col-lg-4 col-12 mt-md-0 mt-3">
                         <button type="submit">Найти работу!</button>
                     </div> 
                 </form>
-                <p class="text-2 text-left mt-3"><img src="images/dest/fire.png" alt=""> Горячая вакансия : <a href="">Менеджер по работе с клиентами!</a></p>
+                <p  class="text-2 text-left mt-3"><img src="images/dest/fire.png" alt=""> Горячая вакансия : <a href="#popup" class="fancybox">Менеджер по работе с клиентами!</a></p>
             </div>
         </div>
     </header>
-    <section class="main">
+    <section class="main" >
         <div class="container">
             <div class="work d-flex flex-wrap justify-content-center">
-                <div class="col-8 col-md-6">
-                    <img src="images/dest/work.jpg" alt="" width="100%">
+                <div class="col-md-8 col-sm-12 ">
+                    <img  src="images/dest/work.jpg" alt="" width="100%">
                 </div>
-                <div class="col-lg-6 col-md-12 mt-sm-3">
+                <div id="about" class="col-lg-6 col-md-12 mt-sm-3">
                     <p class="work-title">Чем же <span>Мы</span> <br> занимаемся!</p>
                     <p class="text-2">Компания <strong>Global Invest</strong> - предоставляет спектр услуг в сфере финансов и инвестиций. Предлагаем современные инструменты, сотрудничаем с лидерами рынка. Мы молоды и динамичны, всегда нацелены на результат, наши специалисты направят Ваши ресурсы в правильный рост.</p>
-                    <button class="ml-lg-5 ml-md-0 mt-3 text-2 font-weight-bold ">Вступить в команду!</button>
+                    <button  class="ml-lg-5 ml-md-0 mt-3 text-2 font-weight-bold ">Вступить в команду!</button>
                 </div>
             </div>
         </div>
-        <div id="about" class="order py-4 d-flex flex-wrap justify-content-between align-items-center">
+        <div   class="order py-4 d-flex flex-wrap justify-content-between align-items-center">
             <div class="container">
                 <div class="row d-flex flex-wrap justify-content-between align-items-center">
                     <div class="col-md-3 col-12">
@@ -114,8 +119,8 @@
 
                         <div class="wait-column col-lg-3 col-md-6 col-12 px-1">
                             <div class="wait-text text-center">
-                                <p class="text-1">Офис и атмосфера !</p>
-                                <p class="text-2">Современный интерьер и ароматные напитки на протяжении рабочего дня!</p>
+                                <p class="text-1">Офис и атмосфера</p>
+                                <p class="text-2">Современный интерьер и ароматные напитки на протяжении рабочего дня</p>
                                 <div class="wait-number"><p>2</p></div>
                             </div>
                         </div>
@@ -128,7 +133,7 @@
                        
                         <div class="wait-column col-lg-3 col-md-6 col-12 px-1">
                             <div class="wait-text text-center">
-                                <p class="text-1 text-center">Зароботок!</p>
+                                <p class="text-1 text-center">Зароботок</p>
                                 <p class="text-2">Средний доход сотрудника компании 600 – 900$. Мотивация регулируется личными достижениями для каждого. </p>
                                 <div class="wait-number"><p>4</p></div>
                             </div>
@@ -136,7 +141,7 @@
 
                         <div class="wait-column col-lg-3 col-md-6 col-12 px-1">
                             <div class="wait-text text-center wait-text--first">
-                                <p class="text-1">Развитие и карьерный рост!</p>
+                                <p class="text-1">Развитие и карьерный рост</p>
                                 <p class="text-2">Каждый имеет опцию сделать шаг вперед и стать руководителем группы. Предоставляется обучение на всех этапах.</p>
                                 <div class="wait-number"><p>1</p></div>
                             </div>
@@ -192,7 +197,7 @@
                             <div class="quest-circle">
                                 <p>4</p>
                             </div>
-                            <p class="text-2 font-weight-bold mt-3">Первые сделки!</p>
+                            <p class="text-2 font-weight-bold mt-3">Первые сделки</p>
                             <p class="text-3">Получаешь ЗП за проделанную работу и двигаешься вперед.</p>
                         </div>
                     </div>
@@ -243,14 +248,17 @@
                        <div class="popup__form-title">
                            Введите коректно свои данные:
                        </div>
-                        <input type="text" placeholder="Город" required="">
-                        <input type="text" placeholder="Имя" required="">
-                        <input type="text" placeholder="Телефон" required="">
+                        <input type="hidden" name="project_name" value="scam">
+                        <input type="hidden" name="admin_email" value="leznikonetrue@gmail.com">
+                        <input type="hidden" name="form_subject" value="Попап">
+                        <input type="text" name="text" placeholder="Город" required minlength="3">
+                        <input type="text" name="Name" placeholder="Имя" required minlength="3">
+                        <input type="text" name="E-mail" placeholder="Телефон" required="@">
                         <select class="wide">
-                            <option data-display="Город">Вакансия</option>
-                            <option value="New-York">Нью-Йорк1</option>
-                            <option value="New-York">Нью-Йорк2</option>
-                            <option value="New-York">Нью-Йорк3</option>
+                            <option data-display="Вакансия">Вакансия</option>
+                            <option value="1">Ит</option>
+                            <option value="2">Строитель</option>
+                            <option value="2">Раб-сила</option>
                         </select> 
                 <div class="popup__form-required">
                     Выберите вакансию!
@@ -266,8 +274,11 @@
      
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="js/jquery.nice-select.min.js"></script>
-    <script src="libs/fancybox/js/jquery.fancybox.min.js"></script>
     <script src="js/app.min.js"></script> 
+    <script src="libs/fancybox/js/jquery.fancybox.min.js"></script>
    
 </body>
 </html>
+
+
+
