@@ -11,6 +11,17 @@ input:valid{
 body{
 	overflow: hidden-y;
 }
+.form-content{
+  padding: 27px;
+}
+.fancybox-content{
+	
+    overflow: initial;
+}
+
+.nice-select.wide .list{
+	z-index: 999;
+}
 .wait .wait-row .wait-column{
 	align-items: start;
 }

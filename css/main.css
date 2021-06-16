@@ -14,9 +14,7 @@ button, .button {
   cursor: pointer;
   outline: none!important;
 }
-.form-content{
-  padding: 25px;
-}
+
 .form-content button{
   min-width: 100%;
 }
@@ -50,7 +48,7 @@ ul{
 .popup{
   background-image: url(../images/Rectangle12.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   border-radius: 25px;
   position: relative;
   z-index: 2;
@@ -61,10 +59,11 @@ ul{
   display: block;
   width: 100%;
   height: 100%;
-    background: linear-gradient(89.88deg, #FFFFFF 56.34%, rgba(255, 255, 255, 0) 99.89%);
-    top: 0;
-    left: 0;
-    z-index: -1;
+  background: linear-gradient(89.88deg, #FFFFFF 56.34%, rgba(255, 255, 255, 0) 99.89%);
+  top: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 25px;
 }
 .fancybox-close-small, .fancybox-button{
   display:inline !important;
